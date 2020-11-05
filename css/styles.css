@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18PX;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    font-family: 'Itim', cursive;
+}
+
+.allContent {
+    width: 40%;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #000000;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.header__function {
+    display: flex;
+}
+
+.header__operation {
+    padding: 8px;
+    transition: 2s;
+    border-radius: 3px;
+    background: #2B2B2A;
+}
+
+.header__operation:hover {
+    cursor: pointer;
+    background: #3A3A39;
+}
+
+.operation--new {
+    margin-right: 10px;
+}
+
+.header__a {
+    color: #FFFFFF;
+}
+
+.label__a {
+    text-decoration: none;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__form {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.inputs {
+    display: flex;
+    margin-bottom: 28px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__input {
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 2s;
+    border-bottom: 2px solid #000000;
+}
+
+.content__input:focus {
+    border-bottom: 2px solid #5C5C5A;
+}
+
+.function__button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    transition: 2s;
+    font-size: 17px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    background: #2B2B2A;
+}
+
+.function__button:hover {
+    cursor: pointer;
+    background: #3A3A39;
+}
+
+.table {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__content {
+    width: 100%;
+    margin: 28px 0;
+}
+
+.table__td {
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}
+
+.result__success {
+    color: #3C7D28;
+}
+
+.result__error {
+    color: #DC2929;
+}
